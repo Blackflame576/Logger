@@ -1,0 +1,3 @@
+C:/Users/Blackflame576/Documents/Blackflame576/C++Projects/Logger/CMakeFiles/Logger.dir
+C:/Users/Blackflame576/Documents/Blackflame576/C++Projects/Logger/CMakeFiles/edit_cache.dir
+C:/Users/Blackflame576/Documents/Blackflame576/C++Projects/Logger/CMakeFiles/rebuild_cache.dir

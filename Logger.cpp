@@ -8,11 +8,12 @@
 #include <exception>
 #include <filesystem>
 #include <cmath>
+#include <concepts>
 
 using namespace std;
 // using namespace std::format;
 
-void print(auto sentence) {
+void print(string sentence) {
     cout << sentence << endl;
 }
 
@@ -146,8 +147,6 @@ class Logger {
 
 int main() {
     setlocale(LC_ALL, "RU");
-    // std::cout << "currentDateTime()=" << currentDateTime() << std::endl;
-    print(time);
     auto main_logger = Logger();
     main_logger.init("text.txt","mb");
     // system("pause");
