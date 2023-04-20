@@ -14,7 +14,6 @@ int main()
  
     // multiply function defined in process.h
     multiply(10, 20);
- 
     // printf defined in stdio.h
     printf("Process completed");
     return 0;

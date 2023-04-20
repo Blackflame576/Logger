@@ -16,6 +16,12 @@ using namespace std;
 void print(string sentence) {
     cout << sentence << endl;
 }
+void print_int(int value) {
+    cout << value << endl;
+}
+void print_long(long value) {
+    cout << value << endl;
+}
 
 class Logger {
     // Инициализация переменных класса
@@ -51,11 +57,11 @@ class Logger {
             else {
                 getFile = false;
             }
-            Debug("Debug");
-            Error("Eror");
-            Info("Info");
-            Success("Success");
-            Warning("Warning");
+            // Debug("Debug");
+            // Error("Eror");
+            // Info("Info");
+            // Success("Success");
+            // Warning("Warning");
         }
 
         const string GetTime() {
