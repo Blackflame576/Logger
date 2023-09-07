@@ -1,2 +1,2 @@
 # Logger
-Logger, разработанный на c++
+Loggeron on c++
