@@ -1,2 +1,2 @@
 # Logger
-Logger on on c++
+Logger on c++
