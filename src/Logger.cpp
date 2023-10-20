@@ -90,14 +90,8 @@ int main()
     string name = "dfdfdfdf";
     string r_1 = "123";
     Logger logger(&name,&s_1);
-    // logger.WriteFile("test.txt","fdfffffdf");
     Json::Value ErrorValue;
     logger.SendError(name,name,name,name,r_1);
-    // ErrorValue["Architecture"] = "Architecture";
-    // ErrorValue["Channel"] = "stable\\latest";
-    // ErrorValue["OS_NAME"] = "Windows";
-    // ErrorValue["FunctionName"] = "Download";
-    // ErrorValue["LogText"] = "Error download"
 
     system("pause");
     return 0;
