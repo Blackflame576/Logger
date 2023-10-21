@@ -48,7 +48,6 @@ public:
             if (MaxSize != nullptr)
             {
                 convertSize(MaxSize);
-                cout << MAX_SIZE << endl;
             }
             toWrite = true;
         }
