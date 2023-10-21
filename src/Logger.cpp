@@ -76,8 +76,5 @@ void Logger::SendError(string Architecture,string Channel,string OS_NAME,string 
         }
         ]
     })";
-    ofstream file("./tmp.json",ios::out | ios::binary);
-    file.write(data.c_str(),sizeof(string));
-    file.close();
     UDP_CLIENT.SEND_JSON_ARRAY(data);
 }
