@@ -37,13 +37,17 @@ public:
     };
     Client UDP_CLIENT;
 
-    Logger(string *PathFile = nullptr, string *MaxSize = nullptr)
+    Logger(const char *PathFile = nullptr,const char *MaxSize = nullptr)
     {
+        #if defined(_WIN32)
+            /* The line `system("chcp 65001");` is a system command that sets the console code page to UTF-8 encoding. This is necessary to display and handle Unicode characters correctly in the console output. */
+            system("chcp 65001");
+        #endif
         if (PathFile != nullptr)
         {
             if (MaxSize != nullptr)
             {
-                convertSize(*MaxSize);
+                convertSize(MaxSize);
                 cout << MAX_SIZE << endl;
             }
             toWrite = true;
